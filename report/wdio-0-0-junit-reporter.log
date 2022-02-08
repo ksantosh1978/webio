@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="test the browser" timestamp="2022-02-08T21:28:01" time="0.014" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="test the browser" timestamp="2022-02-08T21:40:22" time="0.009" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="test the browser"/>
       <property name="capabilities" value="chrome.98_0_4758_80.windows"/>
       <property name="file" value="./test/browser.js"/>
     </properties>
-    <testcase classname="chrome.98_0_4758_80.windows.test_the_browser" name="open the page in browser" time="0.007">
+    <testcase classname="chrome.98_0_4758_80.windows.test_the_browser" name="open the page in browser" time="0.005">
       <system-out><![CDATA[
-COMMAND: POST /session/92cd609e289d751f1ee6d516fd1bcdfa3204837f/url - {"url":"http://www.mastek.com/"}
-COMMAND: DELETE /session/92cd609e289d751f1ee6d516fd1bcdfa3204837f - {}
+COMMAND: POST /session/3e665b92a12a6978a9988931f367fbc60bbcbc43/url - {"url":"http://www.mastek.com/"}
+COMMAND: DELETE /session/3e665b92a12a6978a9988931f367fbc60bbcbc43 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
