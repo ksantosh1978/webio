@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="test the browser" timestamp="2022-02-08T10:14:19" time="0.006" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="test the browser"/>
+      <property name="capabilities" value="firefox.96_0_3.mac"/>
+      <property name="file" value="./test/browser.js"/>
+    </properties>
+    <testcase classname="firefox.96_0_3.mac.test_the_browser" name="open the page in browser" time="0.002">
+      <system-out><![CDATA[
+COMMAND: POST /session/0f1df474-a0e6-4404-8762-a92339cc30df/url - {"url":"http://www.amazon.com/"}
+COMMAND: DELETE /session/0f1df474-a0e6-4404-8762-a92339cc30df - {}
+RESULT: {"url":"http://www.amazon.com/"}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
