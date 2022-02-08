@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644355320155' stop='1644355320344'>
+    <name>test the browser</name>
+    <title>test the browser</title>
+    <test-cases>
+        <test-case start='1644355320156' status='broken' stop='1644355320343'>
+            <name>open the page in browser</name>
+            <title>open the page in browser</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps>
+                <step start='1644355320158' status='broken' stop='1644355320343'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1644355320161' status='passed' stop='1644355320342'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='5869c19f-ebe8-47cc-8194-729ef5d377ad-attachment.json' type='application/json' size='37'/>
+                                <attachment title='Screenshot' source='b7a940fd-d758-40ea-bd39-9b94c1192037-attachment.png' type='image/png' size='5153'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.url(...).pause is not a function</message>
+                <stack-trace>TypeError: browser.url(...).pause is not a function
+                    at Context.&lt;anonymous> (/Users/santosh61667/Documents/webdriver-io/test/browser.js:4:18)
+                    at Context.executeAsync (/Users/santosh61667/Documents/webdriver-io/node_modules/@wdio/utils/build/shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (/Users/santosh61667/Documents/webdriver-io/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

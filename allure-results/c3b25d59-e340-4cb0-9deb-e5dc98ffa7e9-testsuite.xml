@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644347637215' stop='1644347637218'>
+    <name>test the browser</name>
+    <title>test the browser</title>
+    <test-cases>
+        <test-case start='1644347637215' status='passed' stop='1644347637218'>
+            <name>open the page in browser</name>
+            <title>open the page in browser</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-96.0.3'/>
+            </parameters>
+            <steps>
+                <step start='1644347637216' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4f73ed2a-d8e7-414c-9c69-1bc19512b806-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

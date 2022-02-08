@@ -1,0 +1,12 @@
+
+
+Tue Feb 08 2022 21:06:28 GMT+0000 (Greenwich Mean Time) -- ***
+Tue Feb 08 2022 21:06:28 GMT+0000 (Greenwich Mean Time) -- Setting the --only-automate parameter will stop local testing via command line from working with BrowserStack Live and BrowserStack Screenshots.
+Tue Feb 08 2022 21:06:28 GMT+0000 (Greenwich Mean Time) -- To enable local testing via the command line for Live and Screenshots, rerun BrowserStackLocal without --only-automate.
+Tue Feb 08 2022 21:06:28 GMT+0000 (Greenwich Mean Time) -- ***
+
+Tue Feb 08 2022 21:06:30 GMT+0000 (Greenwich Mean Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Tue Feb 08 2022 21:06:30 GMT+0000 (Greenwich Mean Time) -- Press Ctrl-C to exit
+
+
